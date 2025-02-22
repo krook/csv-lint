@@ -17,8 +17,8 @@ jobs:
   verify-cvs-validation:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - name: Validate CSV
+      - uses: actions/checkout@v4
+      - name: Validate CSV
         uses: krook/csv-lint@main
         env:
           CSV_FILE: "file.csv"
