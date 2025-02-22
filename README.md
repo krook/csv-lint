@@ -2,6 +2,8 @@
 
 This action validates a given comma-separated values file.
 
+This modified action is based on code originally created by the authors in the [license](https://github.com/krook/csv-lint/blob/main/LICENSE).
+
 ## Inputs
 
 ## `CSV_FILE`
