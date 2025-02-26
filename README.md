@@ -13,7 +13,10 @@ This modified action is based on code originally created by the authors in the [
 ## Example usage
 
 ```yaml
-on: [pull_request]
+on: 
+  pull_request:
+    paths:
+      - 'file.csv'
 
 jobs:
   verify-cvs-validation:
